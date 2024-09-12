@@ -11,7 +11,6 @@ This example shows how to execute the Find Next action by pressing the F3 shortc
 To do this, handle the **PdfViewerControl.KeyDown** event. If the F3 key is pressed, call the [PdfViewerControl.FindText](https://docs.devexpress.com/WPF/DevExpress.Xpf.PdfViewer.PdfViewerControl.FindText(DevExpress.Xpf.DocumentViewer.TextSearchParameter)) method and pass the search parameters represented by the [TextSearchParameter](https://docs.devexpress.com/WPF/DevExpress.Xpf.DocumentViewer.TextSearchParameter) object (for example, search text, whole words, case sensitive).
 
 <!-- feedback -->
-
 ## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-find-text-using-a-keyboard-shortcut&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-find-text-using-a-keyboard-shortcut&~~~was_helpful=no)
